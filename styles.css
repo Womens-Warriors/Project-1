@@ -82,6 +82,7 @@ body {
     margin-left: 5vw;
 }
 .stories {
+    height: 900px;
     display: flex;
     margin: 0px 5vw;
 }
@@ -104,6 +105,7 @@ body {
     font-size: 40px;
     text-align: center;
     box-shadow: 18px 25px 4px rgba(0, 0, 0, 0.25);
+    
 }
 .s1 {
     background-color: #756D6D;
@@ -122,4 +124,18 @@ body {
     height: 50px;
     background-color: #F7AEA3;
     display: flex;
+}
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.story:hover {
+    animation: enlarge 0.5s forwards;
+}
+.left-box:hover {
+    animation: enlarge 0.5s forwards;
 }
