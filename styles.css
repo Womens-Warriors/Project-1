@@ -159,7 +159,6 @@ body {
         transform: scale(1.2);
     }
 }
-
 .story:hover {
     animation: enlarge 0.5s forwards;
 }
@@ -167,12 +166,15 @@ body {
 .left-box:hover {
     animation: enlarge 0.5s forwards;
 }
-
+@media (max-width: 750px){
+    .stories {
+        flex-direction: column;
+    }
+}
 @media (max-width: 495px) {
     .logo {
         display: none;
     }
-
     .mobile-logo {
         display: block;
     }
@@ -204,10 +206,6 @@ body {
         width: 45vw;
         height: 55vh;
     }
-    .story {
-        
-    }
-    
     /*.left-box-title {*/
     /*    margin: 4vh 0px;*/
     /*    font-style: italic;*/
