@@ -28,7 +28,7 @@ body {
     font-style: italic;
 }
 .title {
-    margin-left: 5vw;
+    margin: 5vh 0px 0px 5vw;
     width: 40vw;
     font-family: Roboto flex;
     font-weight: 800;
@@ -38,6 +38,7 @@ body {
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .first-part {
+    height: 580px;
     display: flex;
 }
 .right-box {
@@ -73,4 +74,52 @@ body {
     background-color: #F7AEA3;
     font-style: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.p2-title {
+    font-family: Rampart One;
+    font-weight: 400;
+    font-size: 80px;
+    margin-left: 5vw;
+}
+.stories {
+    display: flex;
+    margin: 0px 5vw;
+}
+.story{
+    width: 33vw;
+    margin: 2vw;
+}
+.stories h5 {
+    margin: 2vw;
+    color: #4D2A2A;
+    font-style: italic;
+    font-family: Roboto Flex;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.story p {
+    padding: 6vh;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 18px 25px 4px rgba(0, 0, 0, 0.25);
+}
+.s1 {
+    background-color: #756D6D;
+    border: 10px solid #BB837A;
+}
+.s2 {
+    background-color: #BB837A;
+    border: 10px solid #F7AEA3;
+}
+.s3 {
+    background-color: #F7AEA3;
+    border: 10px solid #756D6D;
+}
+.bottom-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #F7AEA3;
+    display: flex;
 }
