@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #E0D5D5; 
+}
 header {
     width: 100%;
     height: 50px;
@@ -18,14 +21,43 @@ nav {
     align-items: center;
 }
 .title {
-    width: 40%;
+    margin-left: 5vw;
+    width: 40vw;
     font-family: Roboto flex;
     font-size: 55px;
-    color: brown;
+    color: #4D2A2A;
     font-style: italic;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-h5 {
+.first-part {
+    border: 1px solid black;
+    display: flex;
+}
+.right-box img {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.left-box {
+    border: 1px solid black;
+    margin-left: 6vw;
+    width: 45vw;
+    height: 55vh;
+}
+.left-box-title {
+    border: 1px solid black;
+    font-style: italic;
+    font-family: Roboto Flex;
     font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 900;
+}
+.left-box-text {
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F7AEA3;
 }
