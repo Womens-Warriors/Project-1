@@ -79,64 +79,64 @@
 
 }
 
-.nav-bar {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
+/*.nav-bar {*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    justify-content: space-evenly;*/
+/*}*/
 
-.top-nav {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
+/*.top-nav {*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    justify-content: space-evenly;*/
+/*}*/
 
-.logo {
-    width: 5%;
-    display: flex;
-    align-items: flex-end;
-    margin: 0;
-}
+/*.logo {*/
+/*    width: 5%;*/
+/*    display: flex;*/
+/*    align-items: flex-end;*/
+/*    margin: 0;*/
+/*}*/
 
-.mobile-logo {
-    display: none;
-}
+/*.mobile-logo {*/
+/*    display: none;*/
+/*}*/
 
-body {
-    background-color: #946969;
-}
+/*body {*/
+/*    background-color: #946969;*/
+/*}*/
 
-.header {
-    font-family:Roboto Flex;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 80px;
-    line-height: 94px;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);
-    width:50px;
-}
+/*.header {*/
+/*    font-family:Roboto Flex;*/
+/*    font-style: italic;*/
+/*    font-weight: 800;*/
+/*    font-size: 80px;*/
+/*    line-height: 94px;*/
+/*    text-align: center;*/
+/*    color: #FFFFFF;*/
+/*    text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);*/
+/*    width:50px;*/
+/*}*/
 
-.news-girl img{
-    width:731px;
-    height:596px;
+/*.news-girl img{*/
+/*    width:731px;*/
+/*    height:596px;*/
     
-}
+/*}*/
 
-  .paragraph {
+/*  .paragraph {*/
 
-        font-family: Roboto flex;
-        border: 2px solid black;
-        background-color: #FFFFFF;
-        font-size: 15px;
+/*        font-family: Roboto flex;*/
+/*        border: 2px solid black;*/
+/*        background-color: #FFFFFF;*/
+/*        font-size: 15px;*/
         
-    }
+/*    }*/
     
-    .list {
-        font-family: Roboto flex;
-        border: 2px solid black;
-        background-color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
+/*    .list {*/
+/*        font-family: Roboto flex;*/
+/*        border: 2px solid black;*/
+/*        background-color: #FFFFFF;*/
+/*        font-size: 12px;*/
+/*        text-align: center;*/
+/*    }*/
