@@ -2,24 +2,33 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color: #E0D5D5; 
+    background-color: #E0D5D5;
 }
+
 .top-nav {
     width: 100%;
     height: 50px;
     background-color: #F7AEA3;
     display: flex;
 }
+
 .logo {
     width: 10%;
 }
+
+.mobile-logo {
+    display: none;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-evenly;
     width: 90%;
     align-items: center;
 }
+
 .link {
     font-size: 25px;
     text-decoration: none;
@@ -27,9 +36,10 @@ body {
     font-weight: 700;
     font-style: italic;
 }
+
 .title {
-    margin: 5vh 0px 0px 5vw;
-    width: 40vw;
+    margin: 4% 0px 0px 5%;
+    width: 40%;
     font-family: Roboto flex;
     font-weight: 800;
     font-size: 100px;
@@ -37,34 +47,39 @@ body {
     font-style: italic;
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
 .first-part {
-    height: 580px;
+    height: 600px;
     display: flex;
 }
+
 .right-box {
-    width: 40vw;
-    height: 40vh;
+    width: 40%;
+    height: 40%;
     margin-left: -40px;
-    margin-right: 7vw;
+    margin-right: 7%;
     z-index: -1;
     border: 50px solid #946969;
     background-image: url(images/image.png);
     background-size: cover;
     background-position: center;
 }
+
 .left-box {
-    margin-left: 8vw;
-    width: 45vw;
-    height: 55vh;
+    margin-left: 8%;
+    width: 45%;
+    height: 55%;
 }
+
 .left-box-title {
-    margin: 4vh 0px;
+    margin: 4% 0px;
     font-style: italic;
     font-family: Roboto Flex;
     font-size: 50px;
     text-align: center;
     font-weight: 900;
 }
+
 .left-box-text {
     border: 10px solid #946969;
     padding: 10px;
@@ -75,23 +90,26 @@ body {
     font-style: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .p2-title {
     font-family: Rampart One;
     font-weight: 400;
     font-size: 80px;
-    margin-left: 5vw;
+    margin-left: 5%;
 }
+
 .stories {
-    height: 900px;
     display: flex;
-    margin: 0px 5vw;
+    margin: 0px 5%;
 }
-.story{
-    width: 33vw;
-    margin: 2vw;
+
+.story {
+    width: 33%;
+    margin: 2%;
 }
+
 .stories h5 {
-    margin: 2vw;
+    margin: 2%;
     color: #4D2A2A;
     font-style: italic;
     font-family: Roboto Flex;
@@ -100,42 +118,116 @@ body {
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .story p {
-    padding: 6vh;
+    padding: 14px;
     font-size: 40px;
     text-align: center;
     box-shadow: 18px 25px 4px rgba(0, 0, 0, 0.25);
-    
+
 }
+
 .s1 {
     background-color: #756D6D;
     border: 10px solid #BB837A;
 }
+
 .s2 {
     background-color: #BB837A;
     border: 10px solid #F7AEA3;
 }
+
 .s3 {
     background-color: #F7AEA3;
     border: 10px solid #756D6D;
 }
+
 .bottom-nav {
     width: 100%;
     height: 50px;
     background-color: #F7AEA3;
     display: flex;
+    margin-top: 60px;
 }
+
 @keyframes enlarge {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
 }
 .story:hover {
     animation: enlarge 0.5s forwards;
 }
+
 .left-box:hover {
     animation: enlarge 0.5s forwards;
+}
+@media (max-width: 750px){
+    .stories {
+        flex-direction: column;
+    }
+}
+@media (max-width: 496px) {
+    .logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    
+    .title {
+        margin: 25px 35px;
+        width: 50%;
+        font-size: 50px;
+        font-family: Roboto flex;
+        font-weight: 800;
+        color: #4D2A2A;
+        font-style: italic;
+        text-shadow: 25px 18px 15px rgba(0, 0, 0, 0.3);
+    }
+    .first-part {
+    flex-direction: column-reverse;
+    }
+    
+    .right-box {
+        width: 76%;
+        margin: auto;
+        border: 30px solid #946969;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 85px 96px 100px 5px rgba(0, 0, 0, 0.25);
+    }
+    .left-box {
+        animation-name: none;
+        margin: auto;
+        width: 90%;
+        height: 250px;
+    }
+    .left-box-title {
+        margin-top: -25px;
+        font-style: italic;
+        font-family: Roboto Flex;
+        font-size: 40px;
+        text-align: left;
+        font-weight: 900;
+    }
+    
+    .left-box-text {
+        border: none;
+        background-color: transparent;
+        
+        padding: 10px;
+        font-size: 35px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .p2-title {
+        font-size: 45px;
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .story {
+        width: 90%;
+    }
 }
