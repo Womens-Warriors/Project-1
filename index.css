@@ -1,0 +1,142 @@
+@media(max-width:495px) {
+
+    body {
+        background-color: #946969;
+    }
+
+
+    .news-girl img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header {
+        font-family: Roboto Flex;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 70px;
+        color: #FFFFFF;
+        text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);
+        text-align: center;
+
+    }
+
+    .paragraph {
+
+        font-family: Roboto flex;
+        border: 2px solid black;
+        padding: 8px;
+        background-color: #FFFFFF;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .list {
+        font-family: Roboto flex;
+        border: 2px solid black;
+        padding: 4px;
+        background-color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .map img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .girl-with-sign img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        width: 10%;
+    }
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.top-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 5%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+body {
+    background-color: #946969;
+}
+
+.header {
+    font-family:Roboto Flex;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);
+    width:50px;
+}
+
+.news-girl img{
+    width:731px;
+    height:596px;
+    
+}
+
+  .paragraph {
+
+        font-family: Roboto flex;
+        border: 2px solid black;
+        background-color: #FFFFFF;
+        font-size: 15px;
+        
+    }
+    
+    .list {
+        font-family: Roboto flex;
+        border: 2px solid black;
+        background-color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
