@@ -39,7 +39,7 @@ body {
     width: 35%;
 }
 .news-girl img{
-    width: 100%;
+    width: 95%;
 }
 .left-header {
     margin: 0px 0px 125px -125px;
@@ -66,27 +66,62 @@ body {
     padding: 25px;
     text-align: center;
 }
-
+#second-pt {
+    margin:  125px;
+    display: flex;
+    justify-content: center;
+}
+.bot-left {
+    width: 50%;
+}
+.bot-right {
+    display: flex;
+    width: 40%;
+    align-items: flex-end;
+}
+.map img{
+    width:95%;
+    border: 5px solid black;
+}
+.girl-with-sign img {
+    height: 250px;
+}
+.girl-with-sign{
+    margin: 125px 0;
+    display: flex;
+    justify-content: center;
+}
 .list {
     font-family: Roboto flex;
     border: 2px solid black;
     background-color: #FFFFFF;
-    font-size: 25px;
+    font-size: 20px;
     padding: 25px;
-    width: 50%;
     text-align: center;
-    margin:auto;
+}
+.bottom-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #F7AEA3;
+    display: flex;
+    margin-top: 60px;
+}
+@keyframes enlarge {
+    0% {
+        transform: scale(1);
+    }
 
+    100% {
+        transform: scale(1.2);
+    }
+}
+.paragraph:hover {
+    animation: enlarge 0.5s forwards;
 }
 
-.map img{
-    width:100px;
-    height:100px;
+.list:hover {
+    animation: enlarge 0.5s forwards;
 }
-
-
-
-
 @media(max-width: 495px) {
     .news-girl img {
         width: 90%;
