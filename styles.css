@@ -190,7 +190,7 @@ body {
         text-shadow: 25px 18px 15px rgba(0, 0, 0, 0.3);
     }
     .first-part {
-        flex-direction: column-reverse;
+    flex-direction: column-reverse;
     }
     
     .right-box {
@@ -203,10 +203,10 @@ body {
         animation-name: none;
         margin: auto;
         width: 90%;
-        height: auto;
+        height: 250px;
     }
     .left-box-title {
-        margin-top: -5px;
+        margin-top: -25px;
         font-style: italic;
         font-family: Roboto Flex;
         font-size: 40px;
@@ -222,7 +222,7 @@ body {
         font-size: 35px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .p2-title {
+    #p2-title {
         font-size: 45px;
         margin: 40px 0px;
         text-align: center;
