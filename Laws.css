@@ -122,78 +122,121 @@ body {
 .list:hover {
     animation: enlarge 0.5s forwards;
 }
+
 @media(max-width: 495px) {
-    .news-girl img {
-        width: 90%;
-        display: block;
-        margin: auto;
-    }
+    
+   
+    
+    /*.news-girl img {*/
+    /*    width: 90%;*/
+    /*    display: block;*/
+    /*    margin: auto;*/
+    /*    height: 300px;*/
+        
+    /*}*/
 
-    .header {
-        font-family: Roboto Flex;
-        font-style: italic;
-        font-weight: 800;
-        font-size: 50px;
+    /*.header {*/
+    /*    font-family: Roboto Flex;*/
+    /*    font-style: italic;*/
+    /*    font-weight: 800;*/
+    /*    font-size: 50px;*/
+    /*    line-height: 39px;*/
+    /*    color: #FFFFFF;*/
+    /*    text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);*/
+    /*    text-align: center;*/
+
+    /*}*/
+
+    /*.paragraph {*/
+
+    /*    font-family: Roboto flex;*/
+    /*    border: 2px solid black;*/
+    /*    padding: 8px;*/
+    /*    background-color: #FFFFFF;*/
+    /*    height: auto;*/
+    /*    font-size: 15px;*/
+    /*    margin-top: 20px;*/
+    /*}*/
+
+    /*.list {*/
+    /*    font-family: Roboto flex;*/
+    /*    border: 2px solid black;*/
+    /*    padding: 4px;*/
+    /*    background-color: #FFFFFF;*/
+    /*    height: auto;*/
+    /*    font-size: 12px;*/
+    /*    text-align: center;*/
+    /*    margin-top: 20px;*/
+    /*}*/
+
+
+    /*.map img {*/
+    /*    width: 100%;*/
+    /*    height: 300px;*/
+    /*    display: block;*/
+    /*    margin: 0 auto;*/
+    /*    margin-top: 20px;*/
+    /*}*/
+
+    /*.girl-with-sign img {*/
+    /*    display: block;*/
+    /*    margin: 0 auto;*/
+    /*    margin-top: 20px;*/
+    /*}*/
+
+    /*.logo {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.mobile-logo {*/
+    /*    display: block;*/
+    /*    width: 10%;*/
+    /*}*/
+
+    /*.top-nav {*/
+    /*    display: flex;*/
+    /*    justify-content: space-between;*/
+    /*}*/
+
+    /*.nav-bar {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    justify-content: space-evenly;*/
+    /*}*/
+
+   main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   }
+   
+   .first-pt{
+    flex-direction:column;
+    width:90%;
+    align-items:center;
+    justify-content:center;
+   }
+   
+   #second-pt{
+   flex-direction:column; 
+   width:90%;
+   align-items:center;
+   justify-content:center;
+   }
+   
+   .left-header{
+       text-align: center;
+       font-size: 50px;
         line-height: 39px;
-        color: #FFFFFF;
-        text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);
-        text-align: center;
-
-    }
-
-    .paragraph {
-
-        font-family: Roboto flex;
-        border: 2px solid black;
-        padding: 8px;
-        background-color: #FFFFFF;
-        font-size: 15px;
-        margin-top: 20px;
-    }
-
-    .list {
-        font-family: Roboto flex;
-        border: 2px solid black;
-        padding: 4px;
-        background-color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-
-    .map img {
-        width: 90%;
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .girl-with-sign img {
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .mobile-logo {
-        display: block;
-        width: 10%;
-    }
-
-    .top-nav {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .nav-bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+   }
+  
+  .paragraph{
+      width:300%;
+      padding: 8px;
+      font-size:15px;
+  }
+  
 
 
 }
