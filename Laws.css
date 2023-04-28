@@ -2,27 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     background-color: #946969;
 }
+
 .top-nav {
     width: 100%;
     height: 50px;
     background-color: #F7AEA3;
     display: flex;
 }
+
 .logo {
     width: 10%;
 }
+
 .mobile-logo {
     display: none;
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-evenly;
     width: 90%;
     align-items: center;
 }
+
 .link {
     font-size: 25px;
     text-decoration: none;
@@ -30,17 +36,21 @@ body {
     font-weight: 700;
     font-style: italic;
 }
-.first-pt{
+
+.first-pt {
     display: flex;
     justify-content: center;
     margin-top: 125px;
 }
-.left{
+
+.left {
     width: 35%;
 }
-.news-girl img{
+
+.news-girl img {
     width: 95%;
 }
+
 .left-header {
     margin: 0px 0px 125px -125px;
     width: 70%;
@@ -53,44 +63,53 @@ body {
     color: #FFFFFF;
     text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);
 }
+
 .right {
     display: flex;
     align-items: flex-start;
     width: 35%;
 }
+
 .paragraph {
     font-family: Roboto flex;
     border: 2px solid black;
     background-color: #FFFFFF;
-    font-size:25px;
+    font-size: 25px;
     padding: 25px;
     text-align: center;
 }
+
 #second-pt {
-    margin:  125px;
+    margin: 125px;
     display: flex;
     justify-content: center;
 }
+
 .bot-left {
     width: 50%;
 }
+
 .bot-right {
     display: flex;
     width: 40%;
     align-items: flex-end;
 }
-.map img{
-    width:95%;
+
+.map img {
+    width: 95%;
     border: 5px solid black;
 }
+
 .girl-with-sign img {
     height: 250px;
 }
-.girl-with-sign{
+
+.girl-with-sign {
     margin-top: 125px;
     display: flex;
     justify-content: center;
 }
+
 .list {
     font-family: Roboto flex;
     border: 2px solid black;
@@ -99,6 +118,7 @@ body {
     padding: 25px;
     text-align: center;
 }
+
 .bottom-nav {
     width: 100%;
     height: 50px;
@@ -106,6 +126,7 @@ body {
     display: flex;
     margin-top: 60px;
 }
+
 @keyframes enlarge {
     0% {
         transform: scale(1);
@@ -115,6 +136,7 @@ body {
         transform: scale(1.2);
     }
 }
+
 .paragraph:hover {
     animation: enlarge 0.5s forwards;
 }
@@ -125,119 +147,63 @@ body {
 
 @media(max-width: 495px) {
     
-   
+    .logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-pt {
+        margin-top: 0px;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-pt {
+        margin: 50px 0;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+    .left {
+        justify-content: center;
+        width: 100%;
+    }
+    .right {
+        margin: 50px 0;
+        width: 90%;
+    }
+    .news-girl img {
+        width: 100%
+    }
+    .left-header {
+        margin: 50px 0;
+        width: auto;
+        font-size: 75px;
+        line-height: 65px;
+    }
+    .bot-left {
+        width: 100%
+    }
+    .bot-right {
+        width: 100%
+    }
+    .girl-with-sign {
+        margin: 50px 0;
+    }
+    .map img {
+        width: 100%;
+    }
     
-    /*.news-girl img {*/
-    /*    width: 90%;*/
-    /*    display: block;*/
-    /*    margin: auto;*/
-    /*    height: 300px;*/
-        
-    /*}*/
-
-    /*.header {*/
-    /*    font-family: Roboto Flex;*/
-    /*    font-style: italic;*/
-    /*    font-weight: 800;*/
-    /*    font-size: 50px;*/
-    /*    line-height: 39px;*/
-    /*    color: #FFFFFF;*/
-    /*    text-shadow: 25px 35px 4px rgba(0, 0, 0, 0.25);*/
-    /*    text-align: center;*/
-
-    /*}*/
-
-    /*.paragraph {*/
-
-    /*    font-family: Roboto flex;*/
-    /*    border: 2px solid black;*/
-    /*    padding: 8px;*/
-    /*    background-color: #FFFFFF;*/
-    /*    height: auto;*/
-    /*    font-size: 15px;*/
-    /*    margin-top: 20px;*/
-    /*}*/
-
-    /*.list {*/
-    /*    font-family: Roboto flex;*/
-    /*    border: 2px solid black;*/
-    /*    padding: 4px;*/
-    /*    background-color: #FFFFFF;*/
-    /*    height: auto;*/
-    /*    font-size: 12px;*/
-    /*    text-align: center;*/
-    /*    margin-top: 20px;*/
-    /*}*/
-
-
-    /*.map img {*/
-    /*    width: 100%;*/
-    /*    height: 300px;*/
-    /*    display: block;*/
-    /*    margin: 0 auto;*/
-    /*    margin-top: 20px;*/
-    /*}*/
-
-    /*.girl-with-sign img {*/
-    /*    display: block;*/
-    /*    margin: 0 auto;*/
-    /*    margin-top: 20px;*/
-    /*}*/
-
-    /*.logo {*/
-    /*    display: none;*/
-    /*}*/
-
-    /*.mobile-logo {*/
-    /*    display: block;*/
-    /*    width: 10%;*/
-    /*}*/
-
-    /*.top-nav {*/
-    /*    display: flex;*/
-    /*    justify-content: space-between;*/
-    /*}*/
-
-    /*.nav-bar {*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    justify-content: space-evenly;*/
-    /*}*/
-
-   main{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-   }
-   
-   .first-pt{
-    flex-direction:column;
-    width:90%;
-    align-items:center;
-    justify-content:center;
-   }
-   
-   #second-pt{
-   flex-direction:column; 
-   width:90%;
-   align-items:center;
-   justify-content:center;
-   }
-   
-   .left-header{
-       text-align: center;
-       font-size: 50px;
-        line-height: 39px;
-   }
-  
-  .paragraph{
-      width:300%;
-      padding: 8px;
-      font-size:15px;
-  }
-  
-
-
 }
-
